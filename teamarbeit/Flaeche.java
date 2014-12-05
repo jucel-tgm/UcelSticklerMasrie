@@ -1,3 +1,5 @@
+package teamarbeit;
+
 /**
  * Klasse die Fläche berechnet
  * 
