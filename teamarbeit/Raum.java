@@ -9,8 +9,14 @@ public class Raum {
 	private double b;
 	private double h;
 	private double r;
-	public raum(){
-		new raum();
+	public Raum(){
+		new Raum();
+	}
+	public Raum(double seitea, double seiteb, double hoehe, double radius){
+		this.a=seitea;
+		this.b=seiteb;
+		this.h=hoehe;
+		this.r=radius;
 	}
 	/**
 	 * Volumen der Pyramide berechnen
